@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/howard/gitbub/cgo-array/clibs/clibs.c
+string.h
+-
+stdio.h
+-
+stdlib.h
+-
+clibs.h
+/Users/howard/gitbub/cgo-array/clibs/clibs.h
+
+/Users/howard/gitbub/cgo-array/clibs/clibs.h
+stddef.h
+-
+
